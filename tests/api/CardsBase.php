@@ -42,14 +42,17 @@ class CardsBase extends BasicTest
             ]
         ],
 
+                "company" => [
+                    "company_members" => [
+                    ]
+                ]
 
-        "company" => []
 
-    ];
+        ];
 $I->sendPost('/v1/company',$riskData );
     $this->checkDefaultResponse($I);
         $details = $I->grabDataFromResponseByJsonPath('$.data.total_score')[0]; //0 is the first element
-        assertEquals($details, 450);
+        assertEquals($details, 400);
 
         $I->seeResponseMatchesJsonType([
         
@@ -123,7 +126,7 @@ $I->sendPost('/v1/company',$riskData );
             ],
             "country_mother"=> [
                     "description"=> 'string',
-                "risk_score"=> 'null',
+                "risk_score"=> 'integer',
                 "values"=> 'string',
                 "levels"=> 'null'
 
