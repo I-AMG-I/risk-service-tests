@@ -1,0 +1,1 @@
+{"code":0,"data":{"values":[{"id":2,"risk":"high","score":200},{"id":3,"risk":"medium","score":100},{"id":1,"risk":"low","score":-25}],"nomenclature":[{"id":10,"entity":"BG","risk":"medium"},{"id":20,"entity":"DK","risk":"low"},{"id":19,"entity":"RO","risk":"medium"},{"id":11,"entity":"AL","risk":"high"},{"id":1491,"entity":"AF","risk":"medium"}]}}

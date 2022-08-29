@@ -1,0 +1,1 @@
+{"code":0,"data":{"values":[{"id":39,"risk":"low","score":-25},{"id":41,"risk":"high","score":100},{"id":40,"risk":"medium","score":50}],"nomenclature":[{"id":49,"entity":"other","risk":"high"},{"id":42,"entity":"dividends","risk":"low"},{"id":50,"entity":"loans","risk":"medium"}]}}
